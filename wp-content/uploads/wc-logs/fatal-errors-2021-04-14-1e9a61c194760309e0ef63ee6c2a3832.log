@@ -1,0 +1,15 @@
+2021-04-14T02:26:11+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on null in C:\xampp\htdocs\chaucay\wp-content\themes\websitedep\product.php:13
+Stack trace:
+#0 C:\xampp\htdocs\chaucay\wp-content\themes\websitedep\functions.php(262): include()
+#1 C:\xampp\htdocs\chaucay\wp-includes\shortcodes.php(343): homePageProduct('', '', 'Product')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 C:\xampp\htdocs\chaucay\wp-includes\shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(Produc...', 'do_shortcode_ta...', '[Product]\r\n\r\n[s...')
+#4 C:\xampp\htdocs\chaucay\wp-content\themes\flatsome\inc\helpers\helpers-shortcode.php(191): do_shortcode('[Product]\r\n\r\n[s...')
+#5 C:\xampp\htdocs\chaucay\wp-includes\class-wp-hook.php(294): flatsome_contentfix('[Product]\r\n\r\n[s...')
+#6 C:\xampp\htdocs\chaucay\wp-includes\plugin.php(212): WP_Hook->apply_filters('[Product]\r\n\r\n[s...', Array)
+#7 C:\xampp\htdocs\chaucay\wp-content\plugins\elementor\includes\base\widget-base.php(388): apply_filters('widget_text', '[Product]\r\n\r\n[ in C:\xampp\htdocs\chaucay\wp-content\themes\websitedep\product.php on line 13
+
+2021-04-14T02:29:04+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\chaucay\wp-includes\functions.php on line 119
+
+2021-04-14T02:47:37+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\chaucay\wp-includes\functions.php on line 624
+
